@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY SCHOOL</title>
+
+    <style>
+        /* Navbar container */
+        .headin {
+            background-color: aqua;
+            overflow: hidden;
+        }
+
+        /* Main menu */
+        .menu {
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            list-style: none;
+            float: left;
+            width: 120px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background-color: yellow;
+            margin: 10px;
+            position: relative;
+        }
+
+        .menu li a {
+            display: block;
+            text-decoration: none;
+            color: black;
+        }
+
+        .menu li:hover {
+            background-color: black;
+        }
+
+        .menu li:hover > a {
+            color: red;
+        }
+
+        /* Dropdown menu */
+        .dropdown {
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            display: none;
+        }
+
+        .dropdown li {
+            width: 120px;
+            background-color: yellow;
+        }
+
+        .dropdown li a {
+            color: black;
+        }
+
+        .dropdown li:hover {
+            background-color: black;
+        }
+
+        .dropdown li:hover a {
+            color: red;
+        }
+
+        /* Show dropdown on hover */
+        .menu li:hover .dropdown {
+            display: block;
+        }
+        img{
+            width: 550px;
+            height: 450;
+            position: center;
+        }
+        H1{
+            background-color: aquamarine;
+            text-align: center;
+            color: black;
+        }
+        p{
+            font-size:23px;
+            background-color: rgb(0, 166, 255);
+            color:brown;
+        }
+        h2{
+            text-align: center;
+            background-color: aqua;
+            color: red;
+        }
+        footer{
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="headin">
+    <ul class="menu">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li>
+            <a href="#hi">COURSES</a>
+            <ul class="dropdown">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JS</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<br>
+<B><U><H1>OUR SCHOOL</H1></U></B>
+<B><P>A school is an educational institution designed to provide learning environments for teaching students under the direction of teachers.<br> 
+<div align="center"> 
+    <img src="school.jpg">
+    </div>
+<b><u><h2>TYPE OF SCHOOL</h2></u></b>
+<b><P style="background-color: yellow;">Types and Levels of Schooling<BR>
+Most modern education systems divide schooling into sequential stages:<br>
+Early Childhood/Pre-school: Focuses on early learning and developmental foundations for young children.<br>
+Primary/Elementary School: Typically covers grades 1 through 5 or 8, providing basic literacy and numeracy.<br>
+Secondary/High School: Divided into lower and upper secondary (often ending at Grade 12), preparing students for university or vocational life.,br>
+Higher Education:<br> Includes colleges and universities where students earn degrees in specific disciplines. </P></b>
+<B><U><h1>OUR FACILITIES</h1></U></B>
+<div align="center"> 
+<img  width="300" height="350" src="Class-room2.jpg">
+   </div>
+<u><p style="background-color: pink;">Core Academic Facilities<br></u>
+Classrooms: Essential learning spaces often equipped with interactive whiteboards, smart-tech tools, and ergonomic furniture.<br>
+Libraries: Quiet zones for reading and research, typically stocked with books, digital resources, and study areas.</p>
+<footer style="color: blueviolet;text-align: center; background-color: antiquewhite;">
+    Contact: 9834569700 <BR>
+  Principle Name: Pradeep yadav <br>
+  Address : kadmahawa
+</footer>
+</body>
+</html>
